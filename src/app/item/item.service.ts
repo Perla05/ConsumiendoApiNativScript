@@ -12,7 +12,7 @@ export class ItemService {
   }
 
   getItems() {
-    return this.http.get("https://jsonplaceholder.typicode.com/todos");
+    return this.http.get("https://jsonplaceholder.typicode.com/users");
   }
 
 }
